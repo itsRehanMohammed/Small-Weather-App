@@ -1,0 +1,55 @@
+body {
+  background-color: #333;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  margin: 4rem 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-field {
+  padding: 0.5rem;
+  border-radius: 11px;
+  background-color: #444;
+  box-shadow: rgba(0, 0, 0, 0.7);
+  filter: drop-shadow(0.1rem, 0.6rem, 0.3rem, #444);
+}
+
+.input-style {
+  padding: 1rem;
+  border-radius: 11px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: large;
+}
+.input-style:nth-child(2) {
+  cursor: pointer;
+}
+
+.result {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 11px;
+  background-color: #fff;
+  box-shadow: rgba(0, #fff, 0, 0.9);
+  filter: drop-shadow(0.1rem, 0.6rem, 0.3rem, #444);
+  text-align: center;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
